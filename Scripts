@@ -41,10 +41,7 @@ local Section = Tab:NewSection("Team: YellowGreg, WspBoy12, MMSVon")
 
 local Section = Tab:NewSection("Credit To Owner Who made the Script")
 
-local Section = Tab:NewSection("Has 100+ Script in 1 Gui Awesome")
-
 local Section = Tab:NewSection("Some GUI Need To Function In The Real Game")
-
 
 
 local Tab = Window:NewTab("GUI•HUB•Scripts")
