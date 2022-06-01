@@ -1,0 +1,2435 @@
+         --Made By AdvanceFallingTeam-- 
+              --Owner YellowGreg--
+            --Still in Development--
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "HarshTech V7",  	
+
+Text = "Made By:AdvanceFalling Team",
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "Starting...",  	
+
+Text = "loading...",
+
+})
+
+wait()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "IM LOADED BITCH HAHAHA!!!!",  	
+
+Text = "LET THE FUN BEGIN",
+
+})
+
+--Script/Tabs--
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("HarshTech - 7.0", "BloodTheme")
+
+local Tab = Window:NewTab("Home•Info•Credits")
+
+local Section = Tab:NewSection("Welcome User To HarshTech V7")
+
+local Section = Tab:NewSection("Discord: YellowGreg#7993")
+
+local Section = Tab:NewSection("Team: YellowGreg, WspBoy12, MMSVon")
+
+local Section = Tab:NewSection("Credit To Owner Who made the Script")
+
+local Section = Tab:NewSection("Has 100+ Script in 1 Gui Awesome")
+
+local Section = Tab:NewSection("Some GUI Need To Function In The Real Game")
+
+
+
+local Tab = Window:NewTab("GUI•HUB•Scripts")
+
+local Section = Tab:NewSection("Normal GUI")
+
+
+Section:NewButton("Keyboard Script", "Gives you a keyboard gui", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
+
+Section:NewButton("Mouse", "Pc Mouse lol", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/MOSUE-TEST/main/Protected%20(13).lua'),true))()
+end)
+
+Section:NewButton("Controller Script", "need to move great here", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/srtepuBM'))()
+end)
+
+Section:NewButton("Jump", "only a jump button", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/qhBY6frK'))();
+end)
+
+Section:NewButton("RedGhost HUB", "UseFul GUI 1", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/WFKSRG6m'))();
+end)
+
+Section:NewButton("British Hub V2", "This Gui is kinda OP", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BH%20v2%20Protecc"))()
+end)
+
+Section:NewButton("VHUB", "its a almost like a FE GUI", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
+end)
+
+Section:NewButton("B_Genesis HUB", "Useful for games", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+end)
+
+Section:NewButton("Screen GUI", "Xray,esp, and more", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/Ekn7geJz'))()
+end)
+
+Section:NewButton("Syntax hub Key: SyntaxV3Free", "Gives you Syntax Hub", function()
+shared.colors = {
+
+    Icons = Color3.fromRGB(0,255,149),
+
+    Version = Color3.fromRGB(0,255,149),
+
+    Text = Color3.fromRGB(255,255,255),
+
+    Description = Color3.fromRGB(125,125,125),
+
+    TabList = Color3.fromRGB(30,30,30),
+
+    Scripts = Color3.fromRGB(30,30,30),
+
+    Back = Color3.fromRGB(25,25,25),
+
+    Glow = Color3.fromRGB(0,0,0),
+
+}
+
+shared.transparency = {
+
+    Version = 0,
+
+    Text = 0,
+
+    Description = 0,
+
+    Icons = 0,
+
+    Back = 0,
+
+    Glow = 0.5,
+
+    TabList = 0,
+
+    Scripts = 1,
+
+}
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3    ", true))()
+end)
+
+Section:NewButton("Terminate HUB", "Animtion GUI", function()
+    _G.Velocity = Vector3.new(30,0,0) loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek/ProjectTerm/main/main.lua"))()
+end)
+
+Section:NewButton("MoonUI V10", "Op Bacdoor", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+end)
+
+Section:NewButton("ArtemisGUI", "GUI", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/iBWWxP51"))()
+end)
+
+Section:NewButton("Fly GUI ", "Fly Around like a bitch", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+                Title = "Credits";
+
+                Text = "Modified By SpekzZ";
+
+                Duration = 3.5;
+
+            })
+
+-- Gui to Lua
+
+-- Version: 3.2
+
+-- Instances:
+
+local main = Instance.new("ScreenGui")
+
+local Frame = Instance.new("Frame")
+
+local up = Instance.new("TextButton")
+
+local down = Instance.new("TextButton")
+
+local onof = Instance.new("TextButton")
+
+local TextLabel = Instance.new("TextLabel")
+
+local plus = Instance.new("TextButton")
+
+local speed = Instance.new("TextLabel")
+
+local mine = Instance.new("TextButton")
+
+--Properties:
+
+main.Name = "main"
+
+main.Parent = game.CoreGui
+
+main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = main
+
+Frame.BackgroundColor3 = Color3.fromRGB(163, 255, 137)
+
+Frame.BorderColor3 = Color3.fromRGB(103, 221, 213)
+
+Frame.Position = UDim2.new(0.100320168, 0, 0.379746825, 0)
+
+Frame.Size = UDim2.new(0, 190, 0, 57)
+
+up.Name = "up"
+
+up.Parent = Frame
+
+up.BackgroundColor3 = Color3.fromRGB(79, 255, 152)
+
+up.Size = UDim2.new(0, 44, 0, 28)
+
+up.Font = Enum.Font.SourceSans
+
+up.Text = "UP"
+
+up.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+up.TextSize = 14.000
+
+down.Name = "down"
+
+down.Parent = Frame
+
+down.BackgroundColor3 = Color3.fromRGB(215, 255, 121)
+
+down.Position = UDim2.new(0, 0, 0.491228074, 0)
+
+down.Size = UDim2.new(0, 44, 0, 28)
+
+down.Font = Enum.Font.SourceSans
+
+down.Text = "DOWN"
+
+down.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+down.TextSize = 14.000
+
+onof.Name = "onof"
+
+onof.Parent = Frame
+
+onof.BackgroundColor3 = Color3.fromRGB(255, 249, 74)
+
+onof.Position = UDim2.new(0.702823281, 0, 0.491228074, 0)
+
+onof.Size = UDim2.new(0, 56, 0, 28)
+
+onof.Font = Enum.Font.SourceSans
+
+onof.Text = "fly"
+
+onof.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+onof.TextSize = 14.000
+
+TextLabel.Parent = Frame
+
+TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255)
+
+TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0)
+
+TextLabel.Size = UDim2.new(0, 100, 0, 28)
+
+TextLabel.Font = Enum.Font.SourceSans
+
+TextLabel.Text = "Fly Gui V2"
+
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+TextLabel.TextScaled = true
+
+TextLabel.TextSize = 14.000
+
+TextLabel.TextWrapped = true
+
+plus.Name = "plus"
+
+plus.Parent = Frame
+
+plus.BackgroundColor3 = Color3.fromRGB(133, 145, 255)
+
+plus.Position = UDim2.new(0.231578946, 0, 0, 0)
+
+plus.Size = UDim2.new(0, 45, 0, 28)
+
+plus.Font = Enum.Font.SourceSans
+
+plus.Text = "+"
+
+plus.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+plus.TextScaled = true
+
+plus.TextSize = 14.000
+
+plus.TextWrapped = true
+
+speed.Name = "speed"
+
+speed.Parent = Frame
+
+speed.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+
+speed.Position = UDim2.new(0.468421042, 0, 0.491228074, 0)
+
+speed.Size = UDim2.new(0, 44, 0, 28)
+
+speed.Font = Enum.Font.SourceSans
+
+speed.Text = "1"
+
+speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+speed.TextScaled = true
+
+speed.TextSize = 14.000
+
+speed.TextWrapped = true
+
+mine.Name = "mine"
+
+mine.Parent = Frame
+
+mine.BackgroundColor3 = Color3.fromRGB(123, 255, 247)
+
+mine.Position = UDim2.new(0.231578946, 0, 0.491228074, 0)
+
+mine.Size = UDim2.new(0, 45, 0, 29)
+
+mine.Font = Enum.Font.SourceSans
+
+mine.Text = "-"
+
+mine.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+mine.TextScaled = true
+
+mine.TextSize = 14.000
+
+mine.TextWrapped = true
+
+speeds = 1
+
+local speaker = game:GetService("Players").LocalPlayer
+
+local chr = game.Players.LocalPlayer.Character
+
+local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+
+nowe = false
+
+Frame.Active = true -- main = gui
+
+Frame.Draggable = true
+
+onof.MouseButton1Down:connect(function()
+
+	if nowe == true then
+
+		nowe = false
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,true)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)
+
+		speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
+
+	else 
+
+		nowe = true
+
+		for i = 1, speeds do
+
+			spawn(function()
+
+				local hb = game:GetService("RunService").Heartbeat	
+
+				tpwalking = true
+
+				local chr = game.Players.LocalPlayer.Character
+
+				local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+
+				while tpwalking and hb:Wait() and chr and hum and hum.Parent do
+
+					if hum.MoveDirection.Magnitude > 0 then
+
+						chr:TranslateBy(hum.MoveDirection)
+
+					end
+
+				end
+
+			end)
+
+		end
+
+		game.Players.LocalPlayer.Character.Animate.Disabled = true
+
+		local Char = game.Players.LocalPlayer.Character
+
+		local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
+
+		for i,v in next, Hum:GetPlayingAnimationTracks() do
+
+			v:AdjustSpeed(0)
+
+		end
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,false)
+
+		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false)
+
+		speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
+
+	end
+
+	
+
+		local plr = game.Players.LocalPlayer
+
+		local UpperTorso = plr.Character.LowerTorso
+
+		local flying = true
+
+		local deb = true
+
+		local ctrl = {f = 0, b = 0, l = 0, r = 0}
+
+		local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+
+		local maxspeed = 50
+
+		local speed = 0
+
+		local bg = Instance.new("BodyGyro", UpperTorso)
+
+		bg.P = 9e4
+
+		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+
+		bg.cframe = UpperTorso.CFrame
+
+		local bv = Instance.new("BodyVelocity", UpperTorso)
+
+		bv.velocity = Vector3.new(0,0.1,0)
+
+		bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+
+		if nowe == true then
+
+			plr.Character.Humanoid.PlatformStand = true
+
+		end
+
+		while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
+
+			wait()
+
+			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+
+				speed = speed+.5+(speed/maxspeed)
+
+				if speed > maxspeed then
+
+					speed = maxspeed
+
+				end
+
+			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+
+				speed = speed-1
+
+				if speed < 0 then
+
+					speed = 0
+
+				end
+
+			end
+
+			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+
+				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+
+			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+
+			else
+
+				bv.velocity = Vector3.new(0,0,0)
+
+			end
+
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+
+		end
+
+		ctrl = {f = 0, b = 0, l = 0, r = 0}
+
+		lastctrl = {f = 0, b = 0, l = 0, r = 0}
+
+		speed = 0
+
+		bg:Destroy()
+
+		bv:Destroy()
+
+		plr.Character.Humanoid.PlatformStand = false
+
+		game.Players.LocalPlayer.Character.Animate.Disabled = false
+
+		tpwalking = false
+
+	
+
+end)
+
+up.MouseButton1Down:connect(function()
+
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,2,0)
+
+	
+
+end)
+
+down.MouseButton1Down:connect(function()
+
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-2,0)
+
+end)
+
+game:GetService("Players").LocalPlayer.CharacterAdded:Connect(function(char)
+
+	wait(0.7)
+
+	game.Players.LocalPlayer.Character.Humanoid.PlatformStand = false
+
+	game.Players.LocalPlayer.Character.Animate.Disabled = false
+
+end)
+
+plus.MouseButton1Down:connect(function()
+
+	speeds = speeds + 1
+
+	speed.Text = speeds
+
+	if nowe == true then
+
+		
+
+	tpwalking = false
+
+	for i = 1, speeds do
+
+		spawn(function()
+
+			local hb = game:GetService("RunService").Heartbeat	
+
+			tpwalking = true
+
+			local chr = game.Players.LocalPlayer.Character
+
+			local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+
+			while tpwalking and hb:Wait() and chr and hum and hum.Parent do
+
+				if hum.MoveDirection.Magnitude > 0 then
+
+					chr:TranslateBy(hum.MoveDirection)
+
+				end
+
+			end
+
+		end)
+
+		end
+
+		end
+
+end)
+
+mine.MouseButton1Down:connect(function()
+
+	if speeds == 1 then
+
+		speed.Text = 'can not be less than 1'
+
+		wait(1)
+
+		speed.Text = speeds
+
+	else
+
+	speeds = speeds - 1
+
+		speed.Text = speeds
+
+		if nowe == true then
+
+	tpwalking = false
+
+	for i = 1, speeds do
+
+		spawn(function()
+
+			local hb = game:GetService("RunService").Heartbeat	
+
+			tpwalking = true
+
+			local chr = game.Players.LocalPlayer.Character
+
+			local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+
+			while tpwalking and hb:Wait() and chr and hum and hum.Parent do
+
+				if hum.MoveDirection.Magnitude > 0 then
+
+					chr:TranslateBy(hum.MoveDirection)
+
+				end
+
+			end
+
+		end)
+
+		end
+
+		end
+
+		end
+
+end)
+
+end)
+
+Section:NewButton("Animation GUI", "Different Movement", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end)
+
+Section:NewButton("RTX Gui 1", "RTX Version 1", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Z6m1aPy1",true))()
+end)
+
+
+Section:NewButton("Fps GUI", "No lag and Thats good", function()
+    loadstring("\45\45\45\45\45\32\85\73\32\76\73\66\82\65\82\89\32\45\45\45\45\10\10\108\111\99\97\108\32\108\105\98\114\97\114\121\32\61\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\65\105\107\97\86\51\114\109\47\85\105\76\105\98\47\109\97\115\116\101\114\47\76\105\98\46\108\117\97\39\41\41\41\40\41\10\10\108\111\99\97\108\32\119\32\61\32\108\105\98\114\97\114\121\58\67\114\101\97\116\101\87\105\110\100\111\119\40\34\70\112\115\32\66\111\111\115\116\101\114\34\41\32\45\45\32\67\114\101\97\116\101\115\32\116\104\101\32\119\105\110\100\111\119\10\10\108\111\99\97\108\32\97\32\61\32\119\58\67\114\101\97\116\101\70\111\108\100\101\114\40\34\82\101\109\111\118\101\32\80\97\103\101\34\41\32\45\45\32\67\114\101\97\116\101\115\32\116\104\101\32\102\111\108\100\101\114\40\85\32\119\105\108\108\32\112\117\116\32\104\101\114\101\32\121\111\117\114\32\98\117\116\116\111\110\115\44\101\116\99\41\10\10\97\58\76\97\98\101\108\40\34\73\109\32\80\97\116\114\105\99\107\34\44\123\10\32\32\32\32\84\101\120\116\83\105\122\101\32\61\32\50\53\59\32\45\45\32\83\101\108\102\32\69\120\112\108\97\105\110\105\110\103\10\32\32\32\32\84\101\120\116\67\111\108\111\114\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\50\53\53\44\32\50\53\53\44\32\50\53\53\41\59\32\45\45\32\83\101\108\102\32\69\120\112\108\97\105\110\105\110\103\10\32\32\32\32\66\103\67\111\108\111\114\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\49\50\55\44\32\50\53\53\44\32\50\49\50\41\59\32\45\45\32\83\101\108\102\32\69\120\112\108\97\105\110\105\110\103\10\32\32\32\32\10\125\41\32\10\10\97\58\66\117\116\116\111\110\40\34\70\112\115\32\43\56\48\34\44\102\117\110\99\116\105\111\110\40\41\10\32\32\32\32\112\114\105\110\116\40\34\104\101\108\108\111\34\41\32\9\119\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\79\102\67\108\97\115\115\40\39\84\101\114\114\97\105\110\39\41\46\87\97\116\101\114\87\97\118\101\83\105\122\101\32\61\32\48\10\9\119\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\79\102\67\108\97\115\115\40\39\84\101\114\114\97\105\110\39\41\46\87\97\116\101\114\87\97\118\101\83\112\101\101\100\32\61\32\48\10\9\119\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\79\102\67\108\97\115\115\40\39\84\101\114\114\97\105\110\39\41\46\87\97\116\101\114\82\101\102\108\101\99\116\97\110\99\101\32\61\32\48\10\9\119\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\79\102\67\108\97\115\115\40\39\84\101\114\114\97\105\110\39\41\46\87\97\116\101\114\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\48\10\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\46\71\108\111\98\97\108\83\104\97\100\111\119\115\32\61\32\102\97\108\115\101\10\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\46\70\111\103\69\110\100\32\61\32\57\101\57\10\9\115\101\116\116\105\110\103\115\40\41\46\82\101\110\100\101\114\105\110\103\46\81\117\97\108\105\116\121\76\101\118\101\108\32\61\32\49\10\9\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\41\32\100\111\10\9\9\105\102\32\118\58\73\115\65\40\34\80\97\114\116\34\41\32\111\114\32\118\58\73\115\65\40\34\85\110\105\111\110\79\112\101\114\97\116\105\111\110\34\41\32\111\114\32\118\58\73\115\65\40\34\77\101\115\104\80\97\114\116\34\41\32\111\114\32\118\58\73\115\65\40\34\67\111\114\110\101\114\87\101\100\103\101\80\97\114\116\34\41\32\111\114\32\118\58\73\115\65\40\34\84\114\117\115\115\80\97\114\116\34\41\32\116\104\101\110\10\9\9\9\118\46\77\97\116\101\114\105\97\108\32\61\32\34\80\108\97\115\116\105\99\34\10\9\9\9\118\46\82\101\102\108\101\99\116\97\110\99\101\32\61\32\48\10\9\9\101\108\115\101\105\102\32\118\58\73\115\65\40\34\68\101\99\97\108\34\41\32\116\104\101\110\10\9\9\9\118\46\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\49\10\9\9\101\108\115\101\105\102\32\118\58\73\115\65\40\34\80\97\114\116\105\99\108\101\69\109\105\116\116\101\114\34\41\32\111\114\32\118\58\73\115\65\40\34\84\114\97\105\108\34\41\32\116\104\101\110\10\9\9\9\118\46\76\105\102\101\116\105\109\101\32\61\32\78\117\109\98\101\114\82\97\110\103\101\46\110\101\119\40\48\41\10\9\9\101\108\115\101\105\102\32\118\58\73\115\65\40\34\69\120\112\108\111\115\105\111\110\34\41\32\116\104\101\110\10\9\9\9\118\46\66\108\97\115\116\80\114\101\115\115\117\114\101\32\61\32\49\10\9\9\9\118\46\66\108\97\115\116\82\97\100\105\117\115\32\61\32\49\10\9\9\101\110\100\10\9\101\110\100\10\9\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\41\32\100\111\10\9\9\105\102\32\118\58\73\115\65\40\34\66\108\117\114\69\102\102\101\99\116\34\41\32\111\114\32\118\58\73\115\65\40\34\83\117\110\82\97\121\115\69\102\102\101\99\116\34\41\32\111\114\32\118\58\73\115\65\40\34\67\111\108\111\114\67\111\114\114\101\99\116\105\111\110\69\102\102\101\99\116\34\41\32\111\114\32\118\58\73\115\65\40\34\66\108\111\111\109\69\102\102\101\99\116\34\41\32\111\114\32\118\58\73\115\65\40\34\68\101\112\116\104\79\102\70\105\101\108\100\69\102\102\101\99\116\34\41\32\116\104\101\110\10\9\9\9\118\46\69\110\97\98\108\101\100\32\61\32\102\97\108\115\101\10\9\9\101\110\100\10\9\101\110\100\10\9\119\111\114\107\115\112\97\99\101\46\68\101\115\99\101\110\100\97\110\116\65\100\100\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\99\104\105\108\100\41\10\9\9\99\111\114\111\117\116\105\110\101\46\119\114\97\112\40\102\117\110\99\116\105\111\110\40\41\10\9\9\9\105\102\32\99\104\105\108\100\58\73\115\65\40\39\70\111\114\99\101\70\105\101\108\100\39\41\32\116\104\101\110\10\9\9\9\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\46\72\101\97\114\116\98\101\97\116\58\87\97\105\116\40\41\10\9\9\9\9\99\104\105\108\100\58\68\101\115\116\114\111\121\40\41\10\9\9\9\101\108\115\101\105\102\32\99\104\105\108\100\58\73\115\65\40\39\83\112\97\114\107\108\101\115\39\41\32\116\104\101\110\10\9\9\9\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\46\72\101\97\114\116\98\101\97\116\58\87\97\105\116\40\41\10\9\9\9\9\99\104\105\108\100\58\68\101\115\116\114\111\121\40\41\10\9\9\9\101\108\115\101\105\102\32\99\104\105\108\100\58\73\115\65\40\39\83\109\111\107\101\39\41\32\111\114\32\99\104\105\108\100\58\73\115\65\40\39\70\105\114\101\39\41\32\116\104\101\110\10\9\9\9\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\46\72\101\97\114\116\98\101\97\116\58\87\97\105\116\40\41\10\9\9\9\9\99\104\105\108\100\58\68\101\115\116\114\111\121\40\41\10\9\9\9\101\110\100\10\9\9\101\110\100\41\40\41\10\9\101\110\100\41\10\101\110\100\41\10\10\97\58\66\117\116\116\111\110\40\34\82\101\109\111\118\101\70\111\103\34\44\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\46\70\111\103\69\110\100\32\61\32\49\48\48\48\48\48\10\9\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\41\32\100\111\10\9\9\105\102\32\118\58\73\115\65\40\34\65\116\109\111\115\112\104\101\114\101\34\41\32\116\104\101\110\10\9\9\9\118\58\68\101\115\116\114\111\121\40\41\10\9\9\101\110\100\10\9\101\110\100\10\101\110\100\41\10\10\108\111\99\97\108\32\98\32\61\32\119\58\67\114\101\97\116\101\70\111\108\100\101\114\40\34\112\97\103\101\50\34\41\32\45\45\32\67\114\101\97\116\101\115\32\116\104\101\32\102\111\108\100\101\114\40\85\32\119\105\108\108\32\112\117\116\32\104\101\114\101\32\121\111\117\114\32\98\117\116\116\111\110\115\44\101\116\99\41\10\10\98\58\66\117\116\116\111\110\40\34\98\117\98\98\108\101\99\104\97\116\34\44\102\117\110\99\116\105\111\110\40\41\10\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\67\104\97\116\34\41\46\66\117\98\98\108\101\67\104\97\116\69\110\97\98\108\101\100\32\61\32\116\114\117\101\10\101\110\100\41\10\10\98\58\66\117\116\116\111\110\40\34\83\101\114\118\101\114\104\111\112\34\44\102\117\110\99\116\105\111\110\40\41\10\108\111\99\97\108\32\115\101\114\118\101\114\115\32\61\32\110\105\108\10\32\32\32\32\112\99\97\108\108\40\102\117\110\99\116\105\111\110\40\41\10\32\32\32\32\32\32\32\32\115\101\114\118\101\114\115\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\72\116\116\112\83\101\114\118\105\99\101\34\41\58\74\83\79\78\68\101\99\111\100\101\40\103\97\109\101\58\72\116\116\112\71\101\116\65\115\121\110\99\40\34\104\116\116\112\115\58\47\47\103\97\109\101\115\46\114\111\98\108\111\120\46\99\111\109\47\118\49\47\103\97\109\101\115\47\34\32\46\46\32\103\97\109\101\46\80\108\97\99\101\73\100\32\46\46\32\34\47\115\101\114\118\101\114\115\47\80\117\98\108\105\99\63\115\111\114\116\79\114\100\101\114\61\65\115\99\38\108\105\109\105\116\61\49\48\48\34\41\41\46\100\97\116\97\10\32\32\32\32\101\110\100\41\10\32\32\32\32\105\102\32\116\121\112\101\40\115\101\114\118\101\114\115\41\32\126\61\32\34\116\97\98\108\101\34\32\116\104\101\110\10\32\32\32\32\101\110\100\10\32\32\32\32\108\111\99\97\108\32\106\111\98\73\100\115\32\61\32\123\125\10\32\32\32\32\102\111\114\32\105\44\32\118\32\105\110\32\112\97\105\114\115\40\115\101\114\118\101\114\115\41\32\100\111\10\32\32\32\32\9\105\102\32\116\121\112\101\40\118\41\32\61\61\32\34\116\97\98\108\101\34\32\97\110\100\32\118\46\109\97\120\80\108\97\121\101\114\115\32\62\32\118\46\112\108\97\121\105\110\103\32\97\110\100\32\118\46\105\100\32\126\61\32\103\97\109\101\46\74\111\98\73\100\32\116\104\101\110\10\32\32\32\32\9\9\116\97\98\108\101\46\105\110\115\101\114\116\40\106\111\98\73\100\115\44\32\118\46\105\100\41\10\32\32\32\32\9\101\110\100\10\32\32\32\32\101\110\100\10\32\32\32\32\105\102\32\35\106\111\98\73\100\115\32\62\32\48\32\116\104\101\110\10\32\32\32\32\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\84\101\108\101\112\111\114\116\83\101\114\118\105\99\101\34\41\58\84\101\108\101\112\111\114\116\84\111\80\108\97\99\101\73\110\115\116\97\110\99\101\40\103\97\109\101\46\80\108\97\99\101\73\100\44\32\106\111\98\73\100\115\91\109\97\116\104\46\114\97\110\100\111\109\40\49\44\32\35\106\111\98\73\100\115\41\93\41\10\32\32\32\32\101\110\100\10\101\110\100\41\10\10\98\58\66\117\116\116\111\110\40\34\70\51\120\34\44\102\117\110\99\116\105\111\110\40\41\10\9\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\71\101\116\79\98\106\101\99\116\115\40\34\114\98\120\97\115\115\101\116\105\100\58\47\47\54\54\57\53\54\52\52\50\57\57\34\41\91\49\93\46\83\111\117\114\99\101\41\40\41\10\101\110\100\41\10\10\98\58\66\117\116\116\111\110\40\34\70\114\101\101\32\71\97\109\101\112\97\115\115\34\44\102\117\110\99\116\105\111\110\40\41\10\105\102\32\103\97\109\101\46\67\114\101\97\116\111\114\84\121\112\101\32\61\61\32\69\110\117\109\46\67\114\101\97\116\111\114\84\121\112\101\46\85\115\101\114\32\116\104\101\110\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\85\115\101\114\73\100\32\61\32\103\97\109\101\46\67\114\101\97\116\111\114\73\100\32\101\110\100\32\105\102\32\103\97\109\101\46\67\114\101\97\116\111\114\84\121\112\101\32\61\61\32\69\110\117\109\46\67\114\101\97\116\111\114\84\121\112\101\46\71\114\111\117\112\32\116\104\101\110\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\85\115\101\114\73\100\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\71\114\111\117\112\83\101\114\118\105\99\101\34\41\58\71\101\116\71\114\111\117\112\73\110\102\111\65\115\121\110\99\40\103\97\109\101\46\67\114\101\97\116\111\114\73\100\41\46\79\119\110\101\114\46\73\100\32\101\110\100\10\101\110\100\41\32\10\10\97\58\68\101\115\116\114\111\121\71\117\105\40\41\32\45\45\32\68\111\110\116\32\82\101\109\111\118\101\32\84\104\105\115\32\70\111\114\32\68\101\115\116\114\111\121\32\84\104\101\32\71\85\73\10\10\45\45\45\32\67\111\109\105\110\103\32\83\111\111\110\32\45\45\45\10\10")()
+end)
+
+
+Section:NewButton("Netless bypass", "I dont know what say to this script", function()
+    net = true
+notify = true 
+loadstring("\13\10\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\71\101\116\79\98\106\101\99\116\115\40\34\114\98\120\97\115\115\101\116\105\100\58\47\47\55\50\53\55\55\54\49\55\56\53\34\41\91\49\93\46\83\111\117\114\99\101\41\40\41\13\10")()
+end)
+
+
+Section:NewButton("Netless v3", "exactly", function()
+    for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+    if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+    game:GetService("RunService").Heartbeat:connect(function()
+    v.Velocity = Vector3.new(-30,0,0)
+    end)
+    end
+    end
+    
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Netless Successfully ran";
+        Text = "yeah";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 16;
+
+end)
+
+
+Section:NewButton("Language Translator", "yes", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Language-translator-/main/Language%20translator", true))()
+end)
+
+Section:NewButton("Fe Chat Bypasser", "bypasses words :0", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
+end)
+
+Section:NewButton("Gamepasses", "Makes you own every gamepass not forever", function()
+game.Players.LocalPlayer.UserId = "2205774994"
+end)
+
+Section:NewButton("Freeze Time", "You will freeze not the other player", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/djAd7g2W'))()
+end)
+
+Section:NewButton("Terminate Hub", "Animation I think", function()
+_G.Velocity = Vector3.new(30,0,0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek/ProjectTerm/main/main.lua"))()
+end)
+
+Section:NewButton("FE LX HUB", "Animation Transform FE", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gogogamer61/LXHub-Main/main/LXHub%20Main%20Script'),true))()
+end)
+
+Section:NewButton("Anti Fling", "You wont get fling", function()
+   -- // Constants \\ --
+-- [ Services ] --
+local Services = setmetatable({}, {__index = function(Self, Index)
+local NewService = game.GetService(game, Index)
+if NewService then
+Self[Index] = NewService
+end
+return NewService
+end})
+
+-- [ LocalPlayer ] --
+local LocalPlayer = Services.Players.LocalPlayer
+
+-- // Functions \\ --
+local function PlayerAdded(Player)
+   local Detected = false
+   local Character;
+   local PrimaryPart;
+
+   local function CharacterAdded(NewCharacter)
+       Character = NewCharacter
+       repeat
+           wait()
+           PrimaryPart = NewCharacter:FindFirstChild("HumanoidRootPart")
+       until PrimaryPart
+       Detected = false
+   end
+
+   CharacterAdded(Player.Character or Player.CharacterAdded:Wait())
+   Player.CharacterAdded:Connect(CharacterAdded)
+   Services.RunService.Heartbeat:Connect(function()
+       if (Character and Character:IsDescendantOf(workspace)) and (PrimaryPart and PrimaryPart:IsDescendantOf(Character)) then
+           if PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 or PrimaryPart.AssemblyLinearVelocity.Magnitude > 100 then
+               if Detected == false then
+                   game.StarterGui:SetCore("ChatMakeSystemMessage", {
+                       Text = "Fling Exploit detected, Player: " .. tostring(Player);
+                       Color = Color3.fromRGB(255, 200, 0);
+                   })
+               end
+               Detected = true
+               for i,v in ipairs(Character:GetDescendants()) do
+                   if v:IsA("BasePart") then
+                       v.CanCollide = false
+                       v.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+                       v.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+                       v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0)
+                   end
+               end
+               PrimaryPart.CanCollide = false
+               PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+               PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+               PrimaryPart.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0)
+           end
+       end
+   end)
+end
+
+-- // Event Listeners \\ --
+for i,v in ipairs(Services.Players:GetPlayers()) do
+   if v ~= LocalPlayer then
+       PlayerAdded(v)
+   end
+end
+Services.Players.PlayerAdded:Connect(PlayerAdded)
+
+local LastPosition = nil
+Services.RunService.Heartbeat:Connect(function()
+   pcall(function()
+       local PrimaryPart = LocalPlayer.Character.PrimaryPart
+       if PrimaryPart.AssemblyLinearVelocity.Magnitude > 250 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 250 then
+           PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+           PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+           PrimaryPart.CFrame = LastPosition
+
+           game.StarterGui:SetCore("ChatMakeSystemMessage", {
+               Text = "You were flung. Neutralizing velocity.";
+               Color = Color3.fromRGB(255, 0, 0);
+           })
+       elseif PrimaryPart.AssemblyLinearVelocity.Magnitude < 50 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 then
+           LastPosition = PrimaryPart.CFrame
+       end
+   end)
+end)
+end)
+
+
+Section:NewButton("VFly Cars", "Flying Cars", function()
+   SGTSOBF_WWwwWWWww={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\92","\49","\48","\52","\92","\49","\49","\54","\92","\49","\49","\54","\92","\49","\49","\50","\92","\49","\49","\53","\92","\53","\56","\92","\52","\55","\92","\52","\55","\92","\49","\49","\50","\92","\57","\55","\92","\49","\49","\53","\92","\49","\49","\54","\92","\49","\48","\49","\92","\57","\56","\92","\49","\48","\53","\92","\49","\49","\48","\92","\52","\54","\92","\57","\57","\92","\49","\49","\49","\92","\49","\48","\57","\92","\52","\55","\92","\49","\49","\52","\92","\57","\55","\92","\49","\49","\57","\92","\52","\55","\92","\53","\52","\92","\53","\49","\92","\56","\52","\92","\52","\56","\92","\49","\48","\50","\92","\49","\48","\55","\92","\54","\54","\92","\49","\48","\57","\92","\49","\48","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBF_HHhHHHHHh="";for _,SGTSOBF_dDDDDDDdD in pairs(SGTSOBF_WWwwWWWww)do SGTSOBF_HHhHHHHHh=SGTSOBF_HHhHHHHHh..SGTSOBF_dDDDDDDdD;end;SGTSOBF_CCCcCCcCC=function(SGTSOBF_fFFFFfFfF)loadstring(SGTSOBF_fFFFFfFfF)()end;SGTSOBF_CCCcCCcCC(SGTSOBF_HHhHHHHHh)
+end)
+
+
+Section:NewButton("NoClip Underground", "Only go through the floor", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/QKbzxzSj'))()
+end)
+
+Section:NewButton("Remove Player", "Only makes them invis", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/Kud3hXHf'))()
+end)
+
+Section:NewButton("PARADOX GUI", "Cool admin stuff", function()
+   loadstring(game:HttpGet(('https://pastebin.com/raw/JLPe0B3H'),true))();
+end)
+
+
+Section:NewButton("Shushi X HUB", "BKHAX HUB KART X(2)", function()
+   loadstring(game:HttpGet("https://paste.ee/r/bf5oO", true))()
+end)
+
+Section:NewButton("Fe Sussy HUB", "18+ lol", function()
+   loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+end)
+
+Section:NewButton("Moon HUB V3", "Op Hub", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/LwQkm563"))();
+end)
+
+Section:NewButton("Fe annoy Player", "Yea be annoying", function()
+       loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\109\74\54\101\109\106\55\56\39\41\41\40\41\10")()
+end)
+
+Section:NewButton("MXS Hub", "Old OP GUI", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/jYJsBA1A", true))()
+end)
+
+Section:NewButton("Ultimate Trolling GUI V3", "Some Will Work", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))() 
+end)
+
+Section:NewButton("Fe Freeze", "Freeze in air lol", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/AkJS0PC7'))()
+end)
+
+Section:NewButton("Auto Walk", "Yea do nothing and walk only", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/QAZwWuHN'))();
+end)
+
+Section:NewButton("Reach GUI V3", "easy for sword", function()
+   SGTSOBF_LLllLllLl={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\92","\49","\48","\52","\92","\49","\49","\54","\92","\49","\49","\54","\92","\49","\49","\50","\92","\49","\49","\53","\92","\53","\56","\92","\52","\55","\92","\52","\55","\92","\49","\49","\50","\92","\57","\55","\92","\49","\49","\53","\92","\49","\49","\54","\92","\49","\48","\49","\92","\57","\56","\92","\49","\48","\53","\92","\49","\49","\48","\92","\52","\54","\92","\57","\57","\92","\49","\49","\49","\92","\49","\48","\57","\92","\52","\55","\92","\49","\49","\52","\92","\57","\55","\92","\49","\49","\57","\92","\52","\55","\92","\49","\48","\53","\92","\55","\53","\92","\49","\49","\48","\92","\52","\57","\92","\49","\49","\52","\92","\49","\48","\52","\92","\57","\48","\92","\49","\49","\56","\92","\49","\48","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBF_KKKKkKKkk="";for _,SGTSOBF_yYYYyyyYy in pairs(SGTSOBF_LLllLllLl)do SGTSOBF_KKKKkKKkk=SGTSOBF_KKKKkKKkk..SGTSOBF_yYYYyyyYy;end;SGTSOBF_FfffFffFf=function(SGTSOBF_dDDdDddDD)loadstring(SGTSOBF_dDDdDddDD)()end;SGTSOBF_FfffFffFf(SGTSOBF_KKKKkKKkk)
+end)
+
+Section:NewButton("Super OP Keyboard", "its new too", function()
+   --[[
+	Filename: Obfuscated_LocalScript.lua
+	Obfuscated by SIGHTS Obfuscator (cracked by oof4dayz.xyz)
+--]]
+
+SGTSOBF_wwwwwWwWw={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\104","\116","\116","\112","\115","\58","\47","\47","\112","\97","\115","\116","\101","\98","\105","\110","\46","\99","\111","\109","\47","\114","\97","\119","\47","\117","\85","\81","\105","\54","\57","\49","\116","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBF_RRRrRrrRR="";for _,SGTSOBF_lLLLLllll in pairs(SGTSOBF_wwwwwWwWw)do SGTSOBF_RRRrRrrRR=SGTSOBF_RRRrRrrRR..SGTSOBF_lLLLLllll;end;SGTSOBF_gGGGggggG=function(SGTSOBF_lLllLlLLL)loadstring(SGTSOBF_lLllLlLLL)()end;SGTSOBF_gGGGggggG(SGTSOBF_RRRrRrrRR)
+end)
+
+
+Section:NewButton("Auto Jump Gui", "Set jump time", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/vViq08jX'))()
+end)
+
+Section:NewButton("Auto Toxic Gui", "Just say bad things lol", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JN-HH-Gaming-AutoToxic1/main/README.md",true))()
+end)
+
+Section:NewButton("Bloodfest GUI", "Game Gui lol", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/MyuKiH2q", true))()
+end)
+
+Section:NewButton("CarlHub", "its a Old Gui", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/carlcoded/carlispro/main/carlhub'))()
+end)
+
+Section:NewButton("AimBot Gui", "Its old but useful", function()
+   -- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Frame.BorderColor3 = Color3.fromRGB(16, 16, 16)
+Frame.Position = UDim2.new(0.326547235, 0, 0.442340851, 0)
+Frame.Size = UDim2.new(0.346905529, 0, 0.194492236, 0)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame_2.BorderColor3 = Color3.fromRGB(16, 16, 16)
+Frame_2.Size = UDim2.new(1, 0, 0.26777932, 0)
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(1.00234735, 0, 1.08253634, 0)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "Arceus | Aimbot"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 16.000
+
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.92957741, 0, 0, 0)
+TextButton.Size = UDim2.new(0.0697798356, 0, 0.991438508, 0)
+TextButton.Font = Enum.Font.SourceSansSemibold
+TextButton.Text = "_"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton_2.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_2.Position = UDim2.new(0.0492957756, 0, 0.495575249, 0)
+TextButton_2.Size = UDim2.new(0.0469483584, 0, 0.176991165, 0)
+TextButton_2.Font = Enum.Font.SourceSansSemibold
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 20.000
+TextButton_2.TextWrapped = true
+
+TextLabel_2.Parent = TextButton_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(1.54999995, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(17.7999992, 0, 1, 0)
+TextLabel_2.Font = Enum.Font.SourceSansSemibold
+TextLabel_2.Text = "Aimbot"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 16.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function RPTXOJ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local state = true
+	script.Parent.MouseButton1Down:Connect(function()
+		print"t"
+		state = not state
+		local LB_Size = script.Parent.Parent.AbsoluteSize
+		local NW_Size = UDim2.new(0, LB_Size.X, 0, LB_Size.Y)
+		if not state then
+			script.Parent.Text = "+"
+			game:GetService("TweenService"):Create(script.Parent.Parent.Parent, TweenInfo.new(0.5, Enum.EasingStyle.Linear), {
+				BackgroundTransparency = 1
+			}):Play()
+			for i, v in pairs(script.Parent.Parent.Parent:GetChildren()) do
+				if v:IsA("TextButton") then 
+					v.Visible = false
+					v.TextLabel.Visible = false
+				end
+			end
+		else
+			script.Parent.Text = "_"
+			game:GetService("TweenService"):Create(script.Parent.Parent.Parent, TweenInfo.new(0.5, Enum.EasingStyle.Linear), {
+				BackgroundTransparency = 0
+			}):Play()
+			for i, v in pairs(script.Parent.Parent.Parent:GetChildren()) do
+				if v:IsA("TextButton") then 
+					v.Visible = true
+					v.TextLabel.Visible = true
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(RPTXOJ_fake_script)()
+local function CIXXD_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local state = false
+	script.Parent.MouseButton1Down:Connect(function()
+		state = not state
+		if state then 
+			script.Parent.Text = "x"
+		else
+			script.Parent.Text = ""
+		end
+	end)
+	
+	local Cam = workspace.CurrentCamera
+	
+	local hotkey = true
+	function lookAt(target, eye)
+		Cam.CFrame = CFrame.new(target, eye)
+	end
+	
+	function getClosestPlayerToCursor(trg_part)
+		local nearest = nil
+		local last = math.huge
+		for i,v in pairs(game.Players:GetPlayers()) do
+			if v ~= game.Players.LocalPlayer and game.Players.LocalPlayer.Character and v.Character and v.Character:FindFirstChild(trg_part) then
+				if game.Players.LocalPlayer.Character:FindFirstChild(trg_part) then
+					local ePos, vissss = workspace.CurrentCamera:WorldToViewportPoint(v.Character[trg_part].Position)
+					local AccPos = Vector2.new(ePos.x, ePos.y)
+					local mousePos = Vector2.new(workspace.CurrentCamera.ViewportSize.x / 2, workspace.CurrentCamera.ViewportSize.y / 2)
+					local distance = (AccPos - mousePos).magnitude
+					if distance < last and vissss and hotkey and distance < 400 then
+						last = distance
+						nearest = v
+					end
+				end
+			end
+		end
+		return nearest
+	end
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		local closest = getClosestPlayerToCursor("Head")
+		if state and closest and closest.Character:FindFirstChild("Head") then
+			lookAt(Cam.CFrame.p, closest.Character:FindFirstChild("Head").Position)
+		end
+	end)
+end
+coroutine.wrap(CIXXD_fake_script)()
+local function QNWNII_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Active = true
+	script.Parent.Selectable = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(QNWNII_fake_script)()
+end)
+
+local Section = Tab:NewSection("Adding More")
+
+Section:NewButton("Adding Still 1", "ButtonInfo", function()
+   
+end)
+
+Section:NewButton("Adding Still 2", "ButtonInfo", function()
+   
+end)
+
+Section:NewButton("Adding Still 3", "ButtonInfo", function()
+   
+end)
+
+
+
+
+
+
+
+
+
+--Game Cheat--
+local Tab = Window:NewTab("Game")
+
+local Section = Tab:NewSection("ALL GAMES CHEAT")
+
+local Section = Tab:NewSection("Pet Simulator X")
+
+Section:NewButton("PetSimX GUI 1", "Op PetSimX", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/1"))()
+end)
+
+Section:NewButton("PetSimX GUI 2", "PetSimX 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Ryans/main/GhostHub-PetSimX.lua"))()
+end)
+
+Section:NewButton("PetSimX GUI 3", "PetSimX 3", function()
+    loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+end)
+
+Section:NewButton("PetSimX GUI 4", "Cheat in pet game lol", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+end)
+
+local Section = Tab:NewSection("BedWars")
+
+Section:NewButton("BedWar GUI 1", "Bedwars GUI 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dorukqpx/Xrayon/main/xrayonv2.lua", true))()
+end)
+
+Section:NewButton("BedWars GUI 2", "Soft Bed", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/iWxWxX2M",true))()
+end)
+
+Section:NewButton("BedWars 3", "Bedwars 3", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+Section:NewButton("Bedwar 4", "Credit to Owner", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/NightbedX/main/NightbedScriptLol/mostNightbed.lua", true))()
+end)
+
+Section:NewButton("Bedwar 5", "Credit to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Section:NewButton("Bedwar 6", "Credit to Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/8pmX8/moonlight.cool/main/mlobfuscated.lua'))();
+end)
+
+Section:NewButton("Bedwar 7", "Credit to Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ELCkygpv", true))()
+end)
+
+Section:NewButton("Bedwar 8", "Credit to the owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JNHHGaming123/main/JN%20HH%20Gaming%20Bedwars%20V5",true))()
+end)
+
+
+
+
+local Section = Tab:NewSection("BrookHaven")
+
+Section:NewButton("BrookHaven 1", "ICEHUB GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+Section:NewButton("BrookHaven 2", "DeerieHub", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Murder Mystery 2")
+
+Section:NewButton("MM2 GUI 1", "use keyboard for some ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
+end)
+
+Section:NewButton("MM2 GUI 2", "use keyboard for some ", function()
+   loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+Section:NewButton("MM2 GUI 3", "use keyboard for some ", function()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+local KeyboardguiWarriorRoberrVersion = Instance.new("ScreenGui")
+local Drag = Instance.new("Frame")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+KeyboardguiWarriorRoberrVersion.Name = "Keyboard gui WarriorRoberr Version"
+KeyboardguiWarriorRoberrVersion.Parent = game.CoreGui
+KeyboardguiWarriorRoberrVersion.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Drag.Name = "Drag"
+Drag.Parent = KeyboardguiWarriorRoberrVersion
+Drag.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Drag.BorderSizePixel = 0
+Drag.Position = UDim2.new(0.147916675, 0, 0.0593749993, 0)
+Drag.Size = UDim2.new(0, 270, 0, 30)
+Drag.Active = true
+Drag.Draggable = true
+
+Close.Name = "Close"
+Close.Parent = Drag
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.999839723, 0, -0.00729167089, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 35.000
+Close.MouseButton1Click:Connect(function()
+	KeyboardguiWarriorRoberrVersion:Destroy()
+end)
+game.CoreGui["BUNB0yBUN BOARD"].KeyBoard.Parent = Drag
+game.CoreGui["BUNB0yBUN BOARD"]:Destroy()
+game.CoreGui["Keyboard gui WarriorRoberr Version"].Drag.KeyBoard.Bunb0ybun.Text = "MADE BY WARRIORROBERR BETTER VERSION "
+game.CoreGui["Keyboard gui WarriorRoberr Version"].Drag.KeyBoard.Position = UDim2.new(0, 0, 0, 35)
+game.CoreGui["Keyboard gui WarriorRoberr Version"].Drag.KeyBoard.Bunb0ybun.TextSize = 10
+end)
+
+Section:NewButton("MM2 GUI 4", "This is new", function()
+   loadstring(game:HttpGet(('https://pastebin.com/raw/Aynzy8DW'),true))()
+end)
+
+Section:NewButton("MM2 GUI 5", "This is new", function()
+loadstring(game:HttpGet("https://pastebin.com/fedNtyaL"))()
+end)
+
+Section:NewButton("MM2 GUI 6", "This is new", function()
+loadstring(game:HttpGet("https://pastebin.com/aCrpc6SW"))()
+end)
+
+Section:NewButton("MM2 GUI 7", "This is new", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/DihfjHj2'))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Tower Of Hell")
+
+Section:NewButton("ToH Admin", "Its only admin command", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+end)
+
+Section:NewButton("ToH GUI 1", "So Op for TOH", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+end)
+
+
+
+local Section = Tab:NewSection("Arsenal")
+
+Section:NewButton("Darkrai X", "Arsenal", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
+end)
+
+Section:NewButton("Arsenal 2", "Arsenal 2", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/xq7q0XPq"))()
+end)
+
+
+
+local Section = Tab:NewSection("Da Hood")
+
+Section:NewButton("Da Hood GUI 1", "DA HOOD is kinda good", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/ZCiS8jSd'))()
+end)
+
+Section:NewButton("DaHood GUI 2", "New GUI", function()
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/.../main/....."),true))()
+end)
+
+Section:NewButton("Da Hood GUI 3", "DaHood Evil", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+end)
+
+Section:NewButton("Da Hood GUI 4", "DaHood Evil", function()
+   loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\71\97\109\101\114\69\109\105\108\105\97\110\111\70\70\47\116\114\105\112\95\47\109\97\105\110\47\72\117\98\10",true))()
+end)
+
+Section:NewButton("Da Hood GodMode", "You Will be god", function()
+p = game.Players.LocalPlayer
+ch = p.Character
+
+ch.BodyEffects.Dead:Destroy()
+end)
+
+Section:NewButton("DaHood Silent Aim", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+
+end)
+
+
+
+local Section = Tab:NewSection("Blox Fruit")
+
+Section:NewButton("BloxFruit GUI 1", "One piece", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazerxl/overlazerxkaito-nahee/main/README.md"))()
+end)
+
+Section:NewButton("BloxFruit GUI 2", "One piece", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/joi-droid/MaruHubBF/main/GOHANSSJ3'))()
+end)
+
+Section:NewButton("BloxFruit 3", "New i guess", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/NinoGod/NetnaYay/8d21ce23346c500c93bb8b4a71f7791e4058a70b/startload.lua'))()
+end)
+
+Section:NewButton("BloxFruit 4", "New i guess", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazerxl/overlazerxkaito-nahee/main/README.md"))()
+end)
+
+
+
+
+
+local Section = Tab:NewSection("King Leagcy")
+
+Section:NewButton("KingLegacy GUI 1", "KingLegacy 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Anime Fighter")
+
+Section:NewButton("AnimeFighter GUI 1", "AnimeFighter 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Ragdoll Engine")
+
+Section:NewButton("Ragdoll Engine GUI 1", "Gives you a OP gui", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Survival The Killer")
+
+Section:NewButton("SurvivalTheKiller GUI 1", " Killer GUI", function()
+   local games = { ["SurviveTheKiller"] = 4580204640 } for i,v in pairs(games) do if game.PlaceId == v then print("Supported!"); loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/Games/" .. i .. ".lua"))() end end loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/dcJoin.lua"))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Pop It Trading")
+
+Section:NewButton("Pop It Trading 1", "Pop It Kids", function()
+       loadstring(game:HttpGet(("https://thekillerhood.xyz/cracked/CRACKEDBYKILLERHOOD"),true))()
+end)
+
+Section:NewButton("Pop It Trading 2", "Pop It Kids", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Secrethumanbepro/Secrethumanbepro/main/Pov",true))()
+end)
+
+Section:NewButton("Pop It Trading 3", "Pop It Kids", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Secrethumanbepro/Secrethumanbepro/main/Pov%20v2"))()
+end)
+
+
+
+local Section = Tab:NewSection("Natural Disaster")
+
+Section:NewButton("Natural Disaster 1", "New GUI OP", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+end)
+
+Section:NewButton("Natural Disaster 2", "Has More Script", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
+--Made By 1kWoof#0143
+end)
+
+
+
+local Section = Tab:NewSection("Prison Life")
+
+Section:NewButton("Prison Life GUI 1", "New TeddHub", function()
+setclipboard("https://discord.gg/pTSg34Jz3n")
+print("copied the discord")
+if game.PlaceId == 155615604 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+             local Window = Library.CreateLib("Teddy hub", "Serpent")
+            local Credits = Window:NewTab("Main")
+            local CreditsSection = Credits:NewSection("Credits")
+            CreditsSection:NewLabel("Scripts Made By: Teddy")
+            CreditsSection:NewLabel("and thank to mdr to help me on it!)")
+
+
+    local Tab = Window:NewTab("Ui")
+    local UiSection = Tab:NewSection("Toggle")
+    UiSection:NewKeybind("Toggle Ui", "this will hide the ui(does not inculde animation)", Enum.KeyCode.RightControl, function()
+        Library:ToggleUI()
+    end)
+
+    local Tab = Window:NewTab("LocalPlayer")
+    local LocalPlayerSection = Tab:NewSection("Movement")
+   LocalPlayerSection:NewSlider("Walkspeed", "if you sprint, you have to adjust again", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+ LocalPlayerSection:NewSlider("JumpPower", "Turns you into a pogostick.", 500, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)                              
+                                                                                                                                   
+    
+    local Tab = Window:NewTab("Combat")
+    local CombatSection = Tab:NewSection("Combat")
+    CombatSection:NewButton("Become a american!", "M4A1 Not inculded.", function()
+                print("All Weapons Given!")
+                workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
+                workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver.M9.ITEMPICKUP)
+                workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.single.Hammer.ITEMPICKUP)
+                workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
+        print(currentOption)
+    end)
+    CombatSection:NewButton("HitboxExpander", "Hitbox Ui", function()
+        loadstring(game:HttpGet(("https://gameovers.net/Scripts/Free/HitboxExpander/main.lua"),true))()
+    end)
+            local Misc = Window:NewTab("Miscellaneous")
+            local MiscSection = Misc:NewSection("Miscellaneous")
+            MiscSection:NewButton("Remove all Doors", "Removes Every Door!", function()
+                for i,d in pairs(game.Workspace.Doors:GetChildren()) do
+                    if d.ClassName == "Model" then
+                        d:Destroy()
+                    end
+                end
+            end)
+            MiscSection:NewButton("Remove All Fences", "All Fences Will Be Removed!", function()
+                for i,l in pairs(game.Workspace["Prison_Fences"]:GetChildren()) do
+                    if l.Name == "fence" then
+                        l:Destroy()
+                    end
+                end
+            end)
+        
+            MiscSection:NewButton("Remove All Gates", "All Fences Will Be Removed!", function()
+                game.Workspace["Prison_Fences"]["Prison_Gate"]:Destroy()
+                game.Workspace["Prison_Fences"]["gate"]:Destroy()
+            end)
+        
+    
+    local Tab = Window:NewTab("Admin")
+    local AdminSection = Tab:NewSection("madness")
+    AdminSection:NewButton("Septex", "Gives You Commands!", function()
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+            end)
+            AdminSection:NewButton("PrisonBreaker V1.5", "Prisonbreaker GUI", function()
+                loadstring(game:HttpGet(('https://pastebin.com/raw/QcNge4QY'),true))()
+            end)
+             AdminSection:NewButton("Inf Yield", "gives you more cmds", function()
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+            end)
+            local AdminSection = Tab:NewSection("Septex Commands")
+        AdminSection:NewLabel(":rank player - gives player commands")
+            AdminSection:NewLabel(":kill player - kills player")
+            AdminSection:NewLabel(":sa player - spam arrest player")
+            AdminSection:NewLabel(":crim player - makes player criminal")
+            AdminSection:NewLabel(":bring player - brings player")
+            AdminSection:NewLabel(":goto player - makes you go to player")
+            AdminSection:NewLabel(":void player - voids player")
+            AdminSection:NewLabel(":key player - gives player keycard")
+            AdminSection:NewLabel(":cuffs player - gives player handcuffs")
+            AdminSection:NewLabel(":trap player - traps player")
+            AdminSection:NewLabel(":yard player - brings player to yard")
+            AdminSection:NewLabel(":base player - brings player to criminal base")
+            AdminSection:NewLabel(":prison player - brings player to prison")
+            AdminSection:NewLabel(":lk - loopkills player")
+            AdminSection:NewLabel(":aura - gives player kill aura")
+            AdminSection:NewLabel(":virus - makes anyone who touch player dies")
+            AdminSection:NewLabel(":oof - kills everyone")
+            AdminSection:NewLabel(":spike - lag spike")
+            AdminSection:NewLabel(":bspike - big lag spike")
+            AdminSection:NewLabel(":lag - lags the server")
+            AdminSection:NewLabel(":crash - crashes the server")
+            AdminSection:NewLabel(":tk player - teleport you to player and kills them")
+            AdminSection:NewLabel(":ltk player - loops tpkill")
+            AdminSection:NewLabel(":logs - prints all used cmds")
+            local Tab = Window:NewTab("Troll")
+            local TrollSection = Tab:NewSection("FLY")
+            TrollSection:NewButton("Flycar (AirWav)", "superman but car", function()
+                loadstring(game:HttpGet(('https://pastebin.com/raw/VLBwAgwT'),true))()
+            end)
+    
+            local TrollSection = Tab:NewSection("Dances")
+            TrollSection:NewButton("NullWare V3", "i went through links for you", function()
+                loadstring(game:HttpGet(('https://pastebin.com/raw/jUxDxBsp'),true))()
+            end)
+
+    local Tab = Window:NewTab("Teleports")
+    local TeleportsSection = Tab:NewSection("be even faster than flash")
+    TeleportsSection:NewButton("Outside of prison", "Teleports You outside of the prison!", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(451.6684265136719, 98.0399169921875, 2216.338134765625)
+            end)
+            TeleportsSection:NewButton("Prison Yard", "Teleports You to the Prison Yard", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(736.4671630859375, 97.99992370605469, 2517.583740234375)
+            end)
+            TeleportsSection:NewButton("Kitchen", "Teleports You to the Kitchen!", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(906.641845703125, 99.98993682861328, 2237.67333984375)
+            end)
+            TeleportsSection:NewButton("Prison Cells", "Teleports You to the Prison Cells!", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(919.5551147460938, 99.98998260498047, 2441.700927734375)
+            end)
+            TeleportsSection:NewButton("Surveilance Room", "Teleports You to the Surveilance Room!", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.251953125, 99.98998260498047, 2327.720703125)
+            end)
+            TeleportsSection:NewButton("Break Room", "Teleports You to the Break Room!", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(800.0896606445312, 99.98998260498047, 2266.71630859375)
+            end)
+            TeleportsSection:NewButton("Police Armory", "Teleports You to the Police Armory!", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(837.2889404296875, 99.98998260498047, 2270.99658203125)
+            end)
+            TeleportsSection:NewButton("Police Room", "Teleports to to the Police Room", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(836.5386352539062, 99.98998260498047, 2320.604248046875)
+            end)
+            TeleportsSection:NewButton("Cafeteria", "Teleports you to the Cafeteria!", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(918.994873046875, 99.98993682861328, 2325.73095703125)
+            end)
+            TeleportsSection:NewButton("Criminal Base Inside", "Teleports you to the Criminal Base Inside!", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-975.8451538085938, 109.32379150390625, 2053.11376953125)
+    end)
+    
+    coroutine.wrap(UVUZD_fake_script)()
+game.Player.LocalPlayer:kick("go to prison bro")
+
+    else
+
+end
+end)
+
+
+Section:NewButton("PrisonLife Admin 1",  "Gives you septex admin", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+
+
+local Section = Tab:NewSection("Infectious Smile")
+
+Section:NewButton("Infectious Smile 1", "Smile Bitch", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/WG1BMS72",true))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Kicking Simulator")
+
+Section:NewButton("Kicking Simulator 1", "Kick the Ball", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
+end)
+
+
+
+local Section = Tab:NewSection("Bot Clash")
+
+Section:NewButton("Bot Clash 1", "Robot Crashing Each other", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Krackenz/RobloxScripts/main/Protected%20(6).lua",true))()
+end)
+
+
+
+local Section = Tab:NewSection("Military Tycoon")
+
+Section:NewButton("Military Tycoon 1", "BANG BANG", function()
+   loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+end)
+
+
+
+local Section = Tab:NewSection("Sonic Speed Simulator")
+
+Section:NewButton("Sonic Speed Simulator 1", "Gotta Go Fast", function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
+end)
+
+Section:NewButton("Sonic Speed Simulator 2", "Go gotta fast bitch", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Luciquad/credit/main/sonicspeedsimulator.lua"))()
+end)
+
+
+local Section = Tab:NewSection("Rebirth Champion X")
+
+Section:NewButton("Rebirth Champion X 1", "Idk this game", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
+end)
+
+
+
+local Section = Tab:NewSection("Prop Hunt")
+
+Section:NewButton("Prop Hunt 1", "idk this game too", function()
+   loadstring(game:HttpGet(('https://pastebin.com/raw/tzTXmYf2'),true))()
+end)
+
+
+
+
+local Section = Tab:NewSection("KAT")
+
+Section:NewButton("KAT Kill ALL", "Well That is cheating", function()
+loadstring("\108\111\99\97\108\32\76\80\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\10\119\104\105\108\101\32\119\97\105\116\40\48\46\49\41\32\100\111\10\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\58\71\101\116\80\108\97\121\101\114\115\40\41\41\32\100\111\10\105\102\32\118\32\97\110\100\32\118\46\67\104\97\114\97\99\116\101\114\32\97\110\100\32\118\32\126\61\32\76\80\32\97\110\100\32\118\46\67\104\97\114\97\99\116\101\114\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\72\101\97\100\34\41\32\116\104\101\110\10\108\111\99\97\108\32\104\114\112\32\61\32\118\46\67\104\97\114\97\99\116\101\114\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\72\101\97\100\34\41\32\10\104\114\112\58\66\114\101\97\107\74\111\105\110\116\115\40\41\10\104\114\112\46\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\48\10\104\114\112\46\66\114\105\99\107\67\111\108\111\114\32\61\32\118\46\84\101\97\109\67\111\108\111\114\10\104\114\112\46\65\110\99\104\111\114\101\100\32\61\32\116\114\117\101\10\104\114\112\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\10\112\99\97\108\108\40\102\117\110\99\116\105\111\110\40\41\10\104\114\112\46\67\70\114\97\109\101\32\61\32\76\80\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\42\32\67\70\114\97\109\101\46\110\101\119\40\49\44\48\44\45\51\46\53\41\10\101\110\100\41\10\101\110\100\10\101\110\100\10\101\110\100\10")()
+end)
+
+
+Section:NewButton("KAT Silent AIm", "ButtonInfo", function()
+   local Camera = game:GetService("Workspace").CurrentCamera
+local Players = game:GetService("Players")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+local function GetClosestPlayer()
+   local ClosestPlayer = nil
+   local FarthestDistance = math.huge
+
+   for i, v in pairs(Players.GetPlayers(Players)) do
+       if v ~= LocalPlayer and v.Character and v.Character.FindFirstChild(v.Character, "HumanoidRootPart") then
+           local DistanceFromPlayer = (LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+
+           if DistanceFromPlayer < FarthestDistance then
+               FarthestDistance = DistanceFromPlayer
+               ClosestPlayer = v
+           end
+       end
+   end
+
+   if ClosestPlayer then
+       return ClosestPlayer
+   end
+end
+
+local GameMetaTable = getrawmetatable(game)
+local OldGameMetaTableNamecall = GameMetaTable.__namecall
+setreadonly(GameMetaTable, false)
+
+GameMetaTable.__namecall = newcclosure(function(object, ...)
+   local NamecallMethod = getnamecallmethod()
+   local Arguments = {...}
+
+   if tostring(NamecallMethod) == "FindPartOnRayWithIgnoreList" then
+       local ClosestPlayer = GetClosestPlayer()
+       
+       if ClosestPlayer and ClosestPlayer.Character then
+           Arguments[1] = Ray.new(Camera.CFrame.Position, (ClosestPlayer.Character.Head.Position - Camera.CFrame.Position).Unit * (Camera.CFrame.Position - ClosestPlayer.Character.Head.Position).Magnitude)
+       end
+   end
+
+   return OldGameMetaTableNamecall(object, unpack(Arguments))
+end)
+
+setreadonly(GameMetaTable, true)
+end)
+
+
+Section:NewButton("KAT OP", "Has speed,kill all,and more", function()
+   game.StarterGui:SetCore("SendNotification", {
+    Title = "Enjoy";
+    Text = "Made by JN HH Gaming"; -- what the text says (ofc)
+    Duration = 60;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Subscribe To Him";
+    Text = "Now!"; -- what the text says (ofc)
+    Duration = 60;
+})
+
+-- Gui to Lua
+-- Version: 3.
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(39, 15, 245)
+Main.Position = UDim2.new(0.363293529, 0, 0.28638497, 0)
+Main.Size = UDim2.new(0, 300, 0, 154)
+Main.Style = Enum.FrameStyle.ChatRed
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(17, 1, 1)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.025588274, 0, -0.0890700519, 0)
+TextLabel.Size = UDim2.new(0, 250, 0, 30)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "JN HH Gaming Speed"
+TextLabel.TextColor3 = Color3.fromRGB(245, 16, 16)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 12.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(17, 1, 1)
+TextButton.Position = UDim2.new(0.136470661, 0, 0.458670378, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 58)
+TextButton.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "Click To Activate"
+TextButton.TextColor3 = Color3.fromRGB(21, 235, 78)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+ while true do wait() game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60 end
+Walkspeed()
+end)
+-- Scripts:
+
+local function LASGYB_fake_script() -- ScreenGui.Script 
+	local script = Instance.new('Script', ScreenGui)
+
+	frame = script.Parent.Main -- Take out {}s, and put name of frame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(LASGYB_fake_script)()
+
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+
+shared.enabled = w
+game:GetService("RunService").heartbeat:connect(function()
+if not shared.enabled then return end
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.out._NetManaged.GroundHit:FireServer(workspace.Map.Blocks,1645488277.345853)
+wait()
+end)
+
+-- FE Invisible
+
+Local = game:GetService('Players').LocalPlayer
+Char  = Local.Character
+touched,tpdback = false, false
+Local.CharacterAdded:connect(function(char)
+    if script.Disabled ~= true then
+        wait(.25)
+        loc = Char.HumanoidRootPart.Position
+        Char:MoveTo(box.Position + Vector3.new(0,.5,0))
+    end
+end)
+game:GetService('UserInputService').InputBegan:connect(function(key)
+    if key.KeyCode == Enum.KeyCode.Equals then
+        if script.Disabled ~= true then
+            script.Disabled = true
+            print'you may re-execute'
+        end
+    end
+end)
+box = Instance.new('Part',workspace)
+box.Anchored = true
+box.CanCollide = true
+box.Size = Vector3.new(10,1,10)
+box.Position = Vector3.new(0,10000,0)
+box.Touched:connect(function(part)
+    if (part.Parent.Name == Local.Name) then
+        if touched == false then
+            touched = true
+            function apply()
+                if script.Disabled ~= true then
+                    no = Char.HumanoidRootPart:Clone()
+                    wait(.25)
+                    Char.HumanoidRootPart:Destroy()
+                    no.Parent = Char
+                    Char:MoveTo(loc)
+                    touched = false
+                end end
+            if Char then
+                apply()
+            end
+        end
+    end
+end)
+repeat wait() until Char
+loc = Char.HumanoidRootPart.Position
+Char:MoveTo(box.Position + Vector3.new(0,.5,0))
+
+local Camera = game:GetService("Workspace").CurrentCamera
+local Players = game:GetService("Players")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+local function GetClosestPlayer()
+   local ClosestPlayer = nil
+   local FarthestDistance = math.huge
+
+   for i, v in pairs(Players.GetPlayers(Players)) do
+       if v ~= LocalPlayer and v.Character and v.Character.FindFirstChild(v.Character, "HumanoidRootPart") then
+           local DistanceFromPlayer = (LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+
+           if DistanceFromPlayer < FarthestDistance then
+               FarthestDistance = DistanceFromPlayer
+               ClosestPlayer = v
+           end
+       end
+   end
+
+   if ClosestPlayer then
+       return ClosestPlayer
+   end
+end
+
+local Camera = game:GetService("Workspace").CurrentCamera
+local Players = game:GetService("Players")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+local function GetClosestPlayer()
+   local ClosestPlayer = nil
+   local FarthestDistance = math.huge
+
+   for i, v in pairs(Players.GetPlayers(Players)) do
+       if v ~= LocalPlayer and v.Character and v.Character.FindFirstChild(v.Character, "HumanoidRootPart") then
+           local DistanceFromPlayer = (LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+
+           if DistanceFromPlayer < FarthestDistance then
+               FarthestDistance = DistanceFromPlayer
+               ClosestPlayer = v
+           end
+       end
+   end
+
+   if ClosestPlayer then
+       return ClosestPlayer
+   end
+end
+
+local GameMetaTable = getrawmetatable(game)
+local OldGameMetaTableNamecall = GameMetaTable.__namecall
+setreadonly(GameMetaTable, false)
+
+GameMetaTable.__namecall = newcclosure(function(object, ...)
+   local NamecallMethod = getnamecallmethod()
+   local Arguments = {...}
+
+   if tostring(NamecallMethod) == "FindPartOnRayWithIgnoreList" then
+       local ClosestPlayer = GetClosestPlayer()
+       
+       if ClosestPlayer and ClosestPlayer.Character then
+           Arguments[1] = Ray.new(Camera.CFrame.Position, (ClosestPlayer.Character.Head.Position - Camera.CFrame.Position).Unit * (Camera.CFrame.Position - ClosestPlayer.Character.Head.Position).Magnitude)
+       end
+   end
+
+   return OldGameMetaTableNamecall(object, unpack(Arguments))
+end)
+
+setreadonly(GameMetaTable, true)
+end)
+
+
+
+
+local Section = Tab:NewSection("Build a Boat")
+
+Section:NewButton("Build a Boat 1", "havent played", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+end)
+
+Section:NewButton("Build a Boat 2", "havent play", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/StenDirt/Trash-Game/main/Script.lua"))()
+end)
+
+Section:NewButton("Build a Boat 3", "Dino-Hub", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SandaFrosty/Dino-Script/main/Build-Boat-For-Treasure"))()
+end)
+
+Section:NewButton("Build a Boat 4", "idk", function()
+_G.autofarm = true loadstring(game:HttpGet('https://gist.githubusercontent.com/cod2rx/d2a7e436d3af135d787529141e6485cc/raw/5bb4df0a94b0a3cf06f0c87a25cb6859e56d23e3/BABFT%2520Autofarm.lua'))()
+end)
+
+Section:NewButton("Build a Boat 5", "Bored", function()
+_G.Color = Color3.fromRGB(255, 255, 255)
+loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
+end)
+
+
+
+local Section = Tab:NewSection("Goal Simulator")
+
+Section:NewButton("Goal Simulator 1", "Play soccer", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Anime Dimensions")
+
+Section:NewButton("Anime Dimesnsions 1", "Different anime lol", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TheWitch-BirdHub/BirdHubv0.1/main/load"))()
+end)
+
+
+
+local Section = Tab:NewSection("No Scope Sniper")
+
+Section:NewButton("Op Silent Aim", "Well its not silent lol", function()
+      getgenv().Settings = {
+
+   Fov = 150,
+
+   Hitbox = "Head",
+
+   FovCircle = true,
+
+}
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/No-Scope-Arcade/Silent%20aim.lua"))()
+end)
+
+
+local Section = Tab:NewSection("MeepCity")
+
+Section:NewButton("MeepCity GUI 1", "Kinda Old", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/meepcracked/main/script.lua"))()
+end)
+
+local Section = Tab:NewSection("Muscle Legend")
+
+Section:NewButton("Muscle Lengend GUI 1", "Op lol", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+end)
+
+
+
+local Section = Tab:NewSection("Ninja Legend")
+
+Section:NewButton("Ninja Legend GUI 1", "its a month old", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/1"))()
+end)
+
+Section:NewButton("Ninja Legend GUI 2", "its OP but its old", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+
+
+
+local Section = Tab:NewSection("Fighting Simulator")
+
+Section:NewButton("Fighting Simulator GUI 1", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Ultra Power Tycoon")
+
+Section:NewButton("Ultra Power Tycoon", "Yea super power", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Ultra%20Power%20Tycoon.lua"))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Animal Simulator")
+
+Section:NewButton("Animal Simulator GUI 1", "No info idk", function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/LeftOnReadInvalid/RobloxStuff/main/Animal%20Simulator%20GUI', true))()
+end)
+
+
+
+
+local Section = Tab:NewSection("Slap Battle")
+
+Section:NewButton("Slap Battle", "Its some months old", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
+end)
+
+
+
+
+local Section = Tab:NewSection("AnimeFighter")
+
+Section:NewButton("AnimeFighterSimulator 1", "Op Yea", function()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Subscribe To xMiles_Games";
+    Text = "Subscribe For More Scripts"; -- what the text says (ofc)
+    Duration = 60;
+})
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/AnimeFightingSim'),true))()
+end)
+
+
+Section:NewButton("AnimeFighter 2", "Op Yea", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
+end)
+
+Section:NewButton("AnimeFighterSimulator 3", "Op Yea", function()
+loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
+end)
+
+
+
+
+
+local Section = Tab:NewSection("Shindo Life")
+
+
+Section:NewButton("Shindo Life Gui 1", "Anime Always", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
+end)
+
+
+Section:NewButton("Shindo Life Gui 2", "Anime Always", function()
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/GAGA5H8t"))();
+
+local Gamer = library:CreateSection("Shindo Life");
+Gamer:Button("~ Press Right Shift To Hide GUI ~");
+function LoadMe(link)
+    loadstring(game:HttpGet(link))()
+end
+Gamer:Button("Infinite Spins", function()
+    LoadMe('https://raw.githubusercontent.com/FurkyYT/stuff/main/infspin')
+end)
+Gamer:Button("Best GUI", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/i53Y3rew",true))()
+end)
+Gamer:Button("NEW OP GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/ShindoLife", true))()
+end)
+Gamer:Button("GUI 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
+end)
+Gamer:Button("GUI 3", function()
+    LoadMe('http://assasine.com/Scripts/Shinobi_Life_2_Autofarm.lua')
+end)
+Gamer:Button("GUI 4", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/Kc7XZKbC'),true))()
+end)
+Gamer:Button("Auto Quest", function()
+    LoadMe('https://pastebin.com/raw/d993kP6G')
+end)
+Gamer:Button('Inf Chakra',function()
+    _G.InfChakra = true
+    loadstring(game:HttpGet('https://pastebin.com/raw/P0BqvPg7'))()    
+end)
+
+library:Ready();
+end)
+
+
+
+
+local Section= Tab:NewSection("Clicker Simulator")
+
+Section:NewButton("Clicker Simulator 1", "Click Fast", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))()
+end)
+
+
+local Section = Tab:NewSection("Raise a Floppa")
+
+Section:NewButton("Raise a Floppa 1", "Click On Floppa lol", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
+end)
+
+
+
+local Section = Tab:NewSection("Pls Donate")
+
+Section:NewButton("Pls Donate Gui 1", "Boi you poor.. oh im sorry", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/PLEASE-DONATE-NEW-GUI-/main/METAB"))();
+end)
+
+
+
+
+--Fe--
+local Tab = Window:NewTab("Fe")
+
+local Section = Tab:NewSection("People can see what you Look like")
+
+Section:NewButton("Fe Caducus", "Evil Demon", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/inJpRzmV",true))()
+end)
+
+Section:NewButton("Fe Slasher", "Yellow slasher hat is required", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/Toasty8i/slasher/main/slasher.lua'),true))()
+end)
+
+Section:NewButton("Fe BackFlip", "Cool Backflip", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/yjxXnxbS'))()
+end)
+
+Section:NewButton("Fe Invisible", "Works For all Game", function()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+local KeyboardguiWarriorRoberrVersion = Instance.new("ScreenGui")
+local Drag = Instance.new("Frame")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+KeyboardguiWarriorRoberrVersion.Name = "Keyboard gui WarriorRoberr Version"
+KeyboardguiWarriorRoberrVersion.Parent = game.CoreGui
+KeyboardguiWarriorRoberrVersion.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Drag.Name = "Drag"
+Drag.Parent = KeyboardguiWarriorRoberrVersion
+Drag.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Drag.BorderSizePixel = 0
+Drag.Position = UDim2.new(0.147916675, 0, 0.0593749993, 0)
+Drag.Size = UDim2.new(0, 270, 0, 30)
+Drag.Active = true
+Drag.Draggable = true
+
+Close.Name = "Close"
+Close.Parent = Drag
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.999839723, 0, -0.00729167089, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 35.000
+Close.MouseButton1Click:Connect(function()
+	KeyboardguiWarriorRoberrVersion:Destroy()
+end)
+game.CoreGui["BUNB0yBUN BOARD"].KeyBoard.Parent = Drag
+game.CoreGui["BUNB0yBUN BOARD"]:Destroy()
+game.CoreGui["Keyboard gui WarriorRoberr Version"].Drag.KeyBoard.Bunb0ybun.Text = "MADE BY WARRIORROBERR BETTER VERSION "
+game.CoreGui["Keyboard gui WarriorRoberr Version"].Drag.KeyBoard.Position = UDim2.new(0, 0, 0, 35)
+game.CoreGui["Keyboard gui WarriorRoberr Version"].Drag.KeyBoard.Bunb0ybun.TextSize = 10
+end)
+
+Section:NewButton("Fe Neko Animation", "Be A Anime Cat lol", function()
+   loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
+end)
+
+
+Section:NewButton("Fe Small", "SO SMALL SO CUTE", function()
+   --Shit ass script made by failedmite57926
+ 
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+ 
+local function rm()
+	for i,v in pairs(Character:GetDescendants()) do
+		if v:IsA("BasePart") then
+			if v.Name ~= "Head" then
+				for i,cav in pairs(v:GetDescendants()) do
+					if cav:IsA("Attachment") then
+						if cav:FindFirstChild("OriginalPosition") then
+							cav.OriginalPosition:Destroy()
+						end
+					end
+				end
+				v:FindFirstChild("OriginalSize"):Destroy()
+				if v:FindFirstChild("AvatarPartScaleType") then
+					v:FindFirstChild("AvatarPartScaleType"):Destroy()
+				end
+			end
+		end
+	end
+end
+ 
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
+wait(1)
+ 
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(1)
+ 
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+wait(1)
+ 
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("HeadScale"):Destroy()
+wait(1)
+end)
+
+
+
+Section:NewButton("FeWaiter(Hat Needed)", "Hat Needed", function()
+--[[ Made By Ice & Fire0001
+
+
+????â„Ž???? ????????????????????????
+
+
+]]-- Made By 09Ice_Fire09
+
+
+-- Equip https://www.roblox.com/catalog/8862923874/Dessert-Plate-Hat To Continue:
+
+
+
+
+
+
+
+
+--[[
+
+Controls:
+e = Offer The Meal. + Click = Show The Meal. (not fling)
+q = Eat The Meal
+Click = Punch (fling)
+
+]]--
+
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/kakabok1233453/asdasda/main/The Waiter'),true))()
+end)
+
+
+Section:NewButton("Fe Perm Animation", "different walk style", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/Q8cVLfb0",true))()
+end)
+
+Section:NewButton("Fe Tall", "BIG OR TALL lol", function()
+   --body sizes: BodyHeightScale: 105%
+--            BodyWidthScale: 100%
+--            HeadScale: 100%
+--            BodyProportionScale: 0%
+--            AvatarPartScaleType: 100%
+
+
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+function rm()
+	for i,v in pairs(Character:GetDescendants()) do
+		if v:IsA("BasePart") then
+			if v.Name == "Handle" or v.Name == "Head" then
+				if Character.Head:FindFirstChild("OriginalSize") then
+					Character.Head.OriginalSize:Destroy()
+				end
+			else
+				for i,cav in pairs(v:GetDescendants()) do
+					if cav:IsA("Attachment") then
+						if cav:FindFirstChild("OriginalPosition") then
+							cav.OriginalPosition:Destroy()  
+						end
+					end
+				end
+				v:FindFirstChild("OriginalSize"):Destroy()
+				if v:FindFirstChild("AvatarPartScaleType") then
+					v:FindFirstChild("AvatarPartScaleType"):Destroy()
+				end
+			end
+		end
+	end
+end
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("HeadScale"):Destroy()
+wait(1)
+end)
+
+
+Section:NewButton("Fe L Emote", "Lol bozo", function()
+-- FE Clowned Made by Nil <3
+-- Mizt Source by Melon <3
+       loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/93a7d51b0ef7b29cfcd94e44df492023/raw/e0bdab89a342aa09fcad6c81cd735c493e52fda6/FE%2520Clowned'),true))();
+end)
+
+Section:NewButton("Bang r15", "Find it out by yourself", function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/manimcool21/bang/main/Protected%20(27).lua'))()
+end)
+
+Section:NewButton("Fe Ninja Animation", "Run like a ninja", function()
+       loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/fb19e99add071128a9f04444da0beea4/raw/a9f5b8003e940c11cf820e39f99b5c19e7c64bf4/FE%2520Ninja'))()
+end)
+
+
+
+
+
+
+--Player--
+local Tab = Window:NewTab("Player")
+
+local Section = Tab:NewSection("Local Player")
+
+Section:NewTextBox("Walkspeed","Rare kavo UI walkspeed setter", function(txt) game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+end)
+Section:NewTextBox("FOV","Max FOV number 120", function(txt) game.Workspace.CurrentCamera.FieldOfView = txt
+end)
+Section:NewTextBox("Jumppower","Increases Jumping", function(txt)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+end)
+
+--- Player
+--- Buttons
+Section:NewButton("Inf Jump", "Gives you inf jumps", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+
+local Section = Tab:NewSection("R15 Animation")
+
+Section:NewButton("Zombie Animation", "R15 animation", function()
+while true do
+    wait(1)
+    for i, player in ipairs(game.Players:GetChildren()) do
+    local Animate = game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616156119"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616157476"
+game.Players.LocalPlayer.Character.Humanoid.Jump = false
+    end
+end
+end)
+Section:NewButton("Cartoony Animation", "R15 animation", function()
+while true do
+    wait(1)
+    for i, player in ipairs(game.Players:GetChildren()) do
+    local Animate = game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=742637544"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=742638445"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=742640026"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=742638842"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=742637942"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=742636889"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=742637151"
+game.Players.LocalPlayer.Character.Humanoid.Jump = false
+    end
+end
+end)
+
+local Section= Tab:NewSection("For Games")
+
+Section:NewButton("Fly V2", "Makes you Fly", function()
+ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+Section:NewButton("Walkspeed", "increases your Walkspeed", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50 --Normal 33--
+end)
+
+Section:NewButton("Kick Yourself", "Kick yourself emergencys only", function()
+      loadstring(game:HttpGet("https://gist.githubusercontent.com/testttbqwebg/adc0db730f5dfca0d8dbdb81f3b65391/raw/b0443888c4399af5a297cb1100a4749c65705711/qweqw", true))()
+end)
+
+
+
+
+
+
+
+--Moving Tab--
+Frame.Parent.Active = true
+
+Frame.Parent.Draggable = true
+
+
+
+
+
+
+
+--end-- 
